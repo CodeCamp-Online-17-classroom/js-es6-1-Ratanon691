@@ -1,14 +1,10 @@
-# js-lab-144
-### Lab144 Array: Group คนที่มีเพศเดียวกัน
-จง Group คนที่มีเพศเดียวกันเข้าด้วยกัน
+# js-lab-145
+### Lab145 ES6: ฟังก์ชันหาค่าผลคูณของตัวเลข 
+จงเขียนฟังก์ชันหาค่าผลคูณของตัวเลข โดยพารามิเตอร์ของฟังก์ชันสามารถรับตัวเลขได้ไม่จำกัด
 
 ```JavaScript
-const persons = [
-  { name: 'John', sex: 'M' },
-  { name: 'Jody', sex: 'M' },
-  { name: 'Susan', sex: 'F' },
-  { name: 'Kate', sex: 'F' },
-  { name: 'Sid', sex: 'M' }
-];
-// expexted result: { M: ['John', 'Jody', 'Sid'], F: ['Susan', 'Kate'] }
+console.log(multiplyNumbers(2, 3, 4)); // 24 (2 * 3 * 4 = 24)
+console.log(multiplyNumbers(5, 6));    // 30 (5 * 6 = 30)
+console.log(multiplyNumbers(10));      // 10
+console.log(multiplyNumbers());        // 0
 ```
